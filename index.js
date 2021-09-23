@@ -10,7 +10,6 @@ function initApp() {
     startHtml();
     addMember();
 }
-
 function addMember() {
     inquirer.prompt([{
         message: "Enter team member's name",
@@ -78,7 +77,6 @@ function addMember() {
                 });
         });
 };
-
 function startHtml() {
     const html = `<!DOCTYPE html>
     <html lang="en">
@@ -102,7 +100,6 @@ function startHtml() {
     });
     console.log("start");
 }
-
 function addHtml(member) {
     return new Promise(function(resolve, reject) {
         const name = member.getName();
@@ -147,7 +144,6 @@ function addHtml(member) {
     });
 
 }
-
 function finishHtml() {
     const html = ` </div>
     </div>
@@ -162,5 +158,4 @@ function finishHtml() {
     });
     console.log("end");
 }
-
 initApp();
