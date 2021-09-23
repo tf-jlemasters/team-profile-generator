@@ -1,13 +1,10 @@
-
 # **Team Profile Generator**
-
 ## Description 
 A node.js program that generates a team profile webpage for managers, with easy access to the employee's information.
 ## Table of contents
 - [Description](#Description)
 - [Installation](#Installation)
 - [Usage](#Usage)
-- [Licence](#Licence)
 - [Contributors](#Contributors)
 - [Test](#Test)
 - [Repository Link](#Repository)
@@ -16,8 +13,6 @@ A node.js program that generates a team profile webpage for managers, with easy 
 run npm i in console to install node packages, then type 'node index.js' in the console to run the program.
 ## Usage
 Used to generate a team profile.
-## Licence
-N/A
 ## Contributors
 Jack LeMasters, Brady Stohler
 ## Test
