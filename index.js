@@ -14,11 +14,11 @@ function initApp() {
 function addMember() {
     inquirer.prompt([{
         message: "Enter team member's name",
-        name: "name"
+        name: "name",
     },
         {
             type: "list",
-            message: "Select team member's role",
+            message: "Assign team member's role",
             choices: [
                 "Engineer",
                 "Intern",
@@ -31,17 +31,17 @@ function addMember() {
             name: "id"
         },
         {
-            message: "Enter team member's email address",
+            message: "Enter team member's work email address",
             name: "email"
         }])
         .then(function({name, role, id, email}) {
             let roleInfo = "";
             if (role === "Engineer") {
-                roleInfo = "GitHub username";
+                roleInfo = "GitHub Username";
             } else if (role === "Intern") {
-                roleInfo = "school name";
+                roleInfo = "School Name";
             } else {
-                roleInfo = "office phone number";
+                roleInfo = "Office Phone Number";
             }
             inquirer.prompt([{
                 message: `Enter team member's ${roleInfo}`,
@@ -77,7 +77,7 @@ function addMember() {
 
                 });
         });
-}
+};
 
 function startHtml() {
     const html = `<!DOCTYPE html>
