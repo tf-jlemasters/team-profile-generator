@@ -1,6 +1,6 @@
 # **Team Profile Generator**
 ## Description 
-A node.js program that generates a team profile webpage for managers, with easy access to the employee's information.
+A node.js program that generates a team profile webpage for managers, with easy access to the employee's information. Forked from my original GitHub account.
 ## Table of contents
 - [Description](#Description)
 - [Installation](#Installation)
